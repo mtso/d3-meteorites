@@ -1,0 +1,50 @@
+html, body, .container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.world-map {
+  width:100%;
+  height:100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  padding: 1em;
+  background-color: black;
+  color: white;
+}
+
+circle {
+  position: relative;
+}
+
+.tooltip {
+  /*-webkit-transform: translate(-50%, -120%);
+  -moz-transform: translate(-50%, -120%);
+  -transform: translate(-50%, -120%);*/
+  position: absolute;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+pre {
+  margin: 0;
+}
